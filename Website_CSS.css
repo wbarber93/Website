@@ -1,0 +1,106 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  background-color: #101217;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg-1 {
+  background-image: url(laptop_darkened2.jpg);
+  height: 35%;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 15%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  opacity: 1;
+  color: #cdcdcd;
+  padding: 9px;
+  font-size: 45px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.caption span.bordersmall  {
+  color: #cdcdcd;
+  padding: 5px;
+  font-size: 17px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.caption span.bordersmallest  {
+  color: #cdcdcd;
+  padding: 5px;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+.centerbody  {
+  colour: #111
+}
+
+
+.centerbody .skills  {
+  position: absolute;
+  left: 0%;
+  width: 100%;
+  text-align: left;
+  color: #cdcdcd;
+  padding: 5px;
+  font-size: 15px;
+}
+
+h1 {
+    font-size: 17px;
+    text-align: center;
+}
+h1::before,
+h1::after {
+    display: inline-block;
+    content: "";
+    border-top: .1rem solid #cdcdcd;
+    height: 1em;
+    width: 15em;
+    transform: translateY(65%);
+    margin-left: .9em;
+    margin-right: .9em;
+}
+
+p  {
+  font-size: 20px;
+  position: absolute;
+  left: 15%;
+  letter-spacing: 0.5px;
+  margin-right: 150px;
+}
+
+p1  {
+  font-size: 20px;
+  position: absolute;
+  left: 5%;
+  letter-spacing: 0.5px;
+  margin-right: 150px;
+}
