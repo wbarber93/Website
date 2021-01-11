@@ -15,13 +15,13 @@ body, html {
 
 .bgimg-1 {
   background-image: url(laptop_darkened2.jpg);
-  height: 35%;
+  height: 37%;
 }
 
 .caption {
   position: absolute;
   left: 0;
-  top: 15%;
+  top: 14%;
   width: 100%;
   text-align: center;
   color: #000;
@@ -104,3 +104,78 @@ p1  {
   letter-spacing: 0.5px;
   margin-right: 150px;
 }
+
+.portfolio-item {
+  margin: auto;
+  padding: 0px;
+  text-align: center;
+  top: 110%; 
+
+  width: 100%;
+}
+
+.row,
+.row > .column {
+  
+  padding-left: 3.35%;
+  padding-bottom:2%
+
+}
+
+.column {
+  float: left;
+  width: 20%;
+  margin-top: 485px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content {
+  background-color: #cdcdcd;
+  padding: 5px;
+}
+
+.site-footer
+{
+  background-color:#26272b;
+  padding:20px 0 0px;
+  font-size:15px;
+  line-height:10px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+
