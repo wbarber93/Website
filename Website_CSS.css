@@ -126,6 +126,7 @@ p1  {
   float: left;
   width: 20%;
   margin-top: 485px;
+  margin-bottom: 0%;
 }
 
 .row:after {
@@ -137,6 +138,7 @@ p1  {
 .content {
   background-color: #cdcdcd;
   padding: 5px;
+  margin-bottom: 20%;
 }
 
 .site-footer
