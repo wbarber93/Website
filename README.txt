@@ -7,3 +7,4 @@ Website currently does not adapt to difference screen sizes and devices, a featu
 
 CHANGELOG:
 14/01/2021 - Added additional row of projects at bottom of page
+19/01/2021 - Supplemented and corrected information on new projects, added additional image files for thumbnails
